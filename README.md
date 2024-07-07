@@ -75,7 +75,7 @@ link for trial is:
 
 - [sahejadkadivar](https://github.com/sahejadkadivar)
 
-## 🐦 Follow Me:
+## Follow Me:
 
 > [LinkedIn](https://www.linkedin.com/in/sahejad-kadivar-667bb9227/)
 
