@@ -69,7 +69,7 @@ Feel free to contribute to this project by creating issues or submitting pull re
 ## Demo
 
 link for trial is:
-[https://github.com/sahejadkadivar]( write link after deployment)
+[click here to experience it!](https://placement-cell-application-gfgo.onrender.com)
 
 ## Authors
 
