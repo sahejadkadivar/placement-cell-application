@@ -1,0 +1,26 @@
+{
+  "name": "placement_cell",
+  "version": "1.0.0",
+  "description": "This application is for employee of company to add student and schedule their interview and download report in csv format.",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.3",
+    "fast-csv": "^4.3.6",
+    "fs": "^0.0.1-security",
+    "mongodb": "^5.9.2",
+    "mongoose": "^6.13.0",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SAHEJAD KADIVAR",
+  "license": "ISC"
+}

@@ -1,0 +1,152 @@
+/* universal style start */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#my-logo {
+    font-size: 30px !important;
+    font-weight: 700 !important;
+}
+
+.my-btn {
+    text-decoration: none !important;
+    border: 1px solid #DAFFFB !important;
+    border: 1px solid #DAFFFB !important;
+    padding: 10px !important;
+    border-radius: 8px !important;
+    color: #DAFFFB !important;
+}
+
+.my-btn:hover {
+    background-color: #176B87 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th {
+    color: #dcf2f0 !important;
+    font-weight: 200 !important;
+}
+
+p,
+li,
+td {
+    color: #64CCC5 !important;
+}
+
+.my-form-help {
+    font-size: small;
+}
+
+label {
+    color: #64CCC5;
+}
+
+body {
+    background-color: #04364A !important;
+}
+
+/* universal style ends */
+
+/* Styles for header bar start */
+
+nav {
+    position: fixed !important;
+    top: 0px;
+    width: 100%;
+    background-color: #176B87;
+    border-bottom: 1px solid #DAFFFB;
+}
+
+
+#my-logo {
+    font-size: 30px !important;
+    font-weight: 500 !important;
+}
+
+nav div div ul li a {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    color: #DAFFFB !important;
+}
+
+nav div div ul li a:hover {
+    color: #64CCC5 !important;
+}
+
+/* Styles for header bar end */
+
+.content-section {
+    margin-top: 120px !important;
+}
+
+/* card section styles starts */
+.my-card {
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 40px;
+    border: 1px solid #DAFFFB;
+    border-radius: 8px !important;
+}
+
+.my-card-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* card section styles ends */
+/* footer section starts */
+footer {
+
+    padding-top: 12px;
+    text-align: center;
+    width: 100%;
+    background-color: #333;
+    position: absolute;
+    bottom: 0px;
+}
+
+/* footer section ends */
+/* error page starts */
+.my-404-img {
+    width: 25%;
+}
+
+
+.my-message-page {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.my-hand-shake-img{
+    width: 30%;
+}
+
+/* error page ends */
+/* applicant list styles start */
+.my-table {
+    border-collapse: separate;
+}
+
+td,
+th {
+    background-color: #04364A !important;
+}
+
+/* applicant list styles ends */
+
+/* This style is applied on login and registeres page */
+.my-form-redirection{
+    text-decoration: none;
+}
+

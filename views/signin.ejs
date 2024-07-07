@@ -1,0 +1,42 @@
+<div class="row mb-5">
+	<div class="col-12 col-md-6">
+		<img src="/images/office-girl.jpg" class="img-fluid" alt="Office-girl_image">
+	</div>
+	<div class="col-12 col-md-6">
+		<h1 class="mb-4">
+			<i class="bi bi-check2-circle"></i> "Where Talent Meets <br> Opportunity"
+		</h1>
+		<p class="mb-3">Welcome to TCC (Team Career Camp), an application where you can view a list of students, add new
+			students, view a list of interviews, schedule interviews, update results, download data, and more.</p>
+		<div>
+			<div class="mx-auto mt-3 mb-3" style="width: 100px">
+				<h4>Sign In</h4>
+			</div>
+
+			<form action="/users/create-session" method="POST" class="mx-auto" style="width: 300px">
+				<!-- Email input -->
+				<div class="form-outline mb-4">
+					<label class="form-label" for="email">Enter Email</label>
+					<input type="email" class="form-control" id="email" placeholder="abc@email.com" name="email"
+						required />
+				</div>
+
+				<!-- Password input -->
+				<div class="form-outline mb-4">
+					<label class="form-label" for="password">Enter Password</label>
+					<input type="password" id="password" class="form-control" name="password" required />
+				</div>
+
+				<!-- Submit button -->
+				<div class="d-flex justify-content-center w-100">
+					<button type="submit" class="btn btn-success btn-block mb-4">Sign in</button>
+				</div>
+
+				<!-- Register buttons -->
+				<div class="text-center">
+					<p>No Account? <a href="/users/signup">Register</a></p>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
