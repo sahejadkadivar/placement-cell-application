@@ -11,7 +11,7 @@ mongoose.set('strictQuery', false);
 // Connect to the MongoDB database using the environment variable or local database as a fallback
 const mongoURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/placement_cell';
 
-console.log('MongoDB URI:', mongoURI); // Add this line to check the URI
+//console.log('MongoDB URI:', mongoURI); // Add this line to check the URI
 
 if (!mongoURI) {
     throw new Error('The MongoDB URI is not defined.');
